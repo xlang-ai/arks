@@ -10,7 +10,7 @@ Through ***active retrieval in knowledge soup***, we demonstrate significant inc
 It is very easy to use ARKS for RACG tasks. In your local machine, we recommend to first create a virtual environment:
 ```bash
 conda env create -n arks python=3.8
-git clone https://github.com/hongjin-su/arks_dev
+git clone https://github.com/xlang-ai/arks
 ```
 That will create the environment `arks` we used. To use the embedding tool, first install the `arks` package
 ```bash

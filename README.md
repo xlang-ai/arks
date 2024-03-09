@@ -34,6 +34,22 @@ conda activate arks
 ### Data
 Please download the [data](https://drive.google.com/file/d/1g_i6Xyl5wFBeXsQGG5kHzCHwtJiHgTq9/view?usp=sharing) and unzip it with password `arksdata`
 
+You can also access the data in [huggingface](https://huggingface.co/datasets/xlangai/arks_data)
+
+load one dataset:
+```
+from datasets import load_dataset
+data_files = {"corpus": "Pony/Pony_docs.jsonl"}
+dataset = load_dataset("xlangai/arks_data", data_files=data_files)
+```
+
+load several datasets:
+```
+from datasets import load_dataset
+data_files = {"corpus": ["Pony/Pony_docs.jsonl", "Ring/Ring_docs.jsonl"]}
+dataset = load_dataset("xlangai/arks_data", data_files=data_files)
+```
+
 ## Getting Started
 Run inference
 ```bash

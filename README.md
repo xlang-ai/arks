@@ -1,6 +1,6 @@
-# ARKS: Active Retrieval in Knowledge Soup for Code Generation
+# EVOR: Evolving Retrieval for Code Generation
 
-This repository contains the code for our paper [ARKS: Active Retrieval in Knowledge Soup for Code Generation](https://arxiv.org/abs/2402.12317). Please refer to our [project page](https://arks-codegen.github.io/) for a quick project overview.
+This repository contains the code for our paper [EVOR: Evolving Retrieval for Code Generation](https://arxiv.org/abs/2402.12317). Please refer to our [project page](https://arks-codegen.github.io/) for a quick project overview.
 
 We introduce **ARKS**, a general pipeline for retrieval-augmented code generation (RACG). 
 We construct a knowledge soup integrating web search, documentation, execution feedback, and evolved code snippets.
